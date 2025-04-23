@@ -32,3 +32,29 @@ const myFunction = function () {
 
 console.log(typeof(myFunction));
 
+// +++++++++++++++++++++++ Memory ++++++++++++++++++++++++++++++
+
+// 1. Stack (Primitive)
+let myYouTubeName = "hiteshchoudhary.com";
+
+let anotherName = myYouTubeName;
+console.log(anotherName);
+console.log(myYouTubeName);
+
+anotherName = "chaiaurcode";
+console.log(anotherName);
+console.log(myYouTubeName);
+
+// 2. Heap (Non-Primitive)
+let userOne = {
+    email: "user@google.com",
+    upi: "user@upi",
+}
+
+let userTwo = userOne;
+console.log(userOne);
+console.log(userTwo);
+
+userTwo.upi = "usertwo@apl";
+console.log(userOne);
+console.log(userTwo);
