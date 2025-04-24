@@ -21,3 +21,13 @@ console.log(Tutor);
     price: "free"
 }
 */
+
+// API's in the format of Arrays:
+
+[
+    {},
+    {},
+    {}
+]
+
+// JSON stand for JavaScript Object Notation
